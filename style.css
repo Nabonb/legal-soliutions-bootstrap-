@@ -8,11 +8,14 @@
 .img-section{
     height: 500px;
 }
+.header-input input{
+    width: 50%;
+}
 @media only screen and (max-width:576px) {
     .for-font{
         font-size: 30px;
     }
     .header-input input{
-        width: 75% !important;
+        width: 75%;
     }
 }
