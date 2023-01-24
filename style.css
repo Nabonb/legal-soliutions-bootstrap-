@@ -21,6 +21,12 @@
     width: 70px;
     height: 70px;      
 }
+.card-bg{
+    background: #F3F3F3;
+}
+.inp-bg{
+    background: #F3F3F3;
+}
 @media only screen and (max-width:576px) {
     .for-font{
         font-size: 30px;
