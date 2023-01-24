@@ -11,6 +11,16 @@
 .header-input input{
     width: 50%;
 }
+.carousel-item{
+    background: #292727;
+}
+.carousel-item >img{
+    opacity: 0.4;
+}
+.user-img{
+    width: 70px;
+    height: 70px;      
+}
 @media only screen and (max-width:576px) {
     .for-font{
         font-size: 30px;
@@ -18,4 +28,18 @@
     .header-input input{
         width: 75%;
     }
+    .user-img{
+        width: 30px;
+        height: 30px; 
+        margin-top: 20%;     
+    }
+    .carousel-caption >h5{
+        font-size: 10px;
+        margin: 0%;
+    }
+    .carousel-caption >p{
+        font-size: 10px;
+        margin: 0%;
+    }
+    
 }
